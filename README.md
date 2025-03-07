@@ -39,5 +39,23 @@ What kind of Data do i have?
 
 ## Evaluation
 
+How can i mess my ML model? There are some different metrics for every ML problem.
+
+## Features
+
+The next step is to understand what features do i have in the dataset and how can i use them?
+
+## Modelling
+
+Modelling breaks into three parts, choosing a model, improving a model, comparing it with others.
+
+## Experimentation
+
+The last step is to repeat all other steps and test some different ways. Choose other models or hyperparameter maybe some other features.
+Then compare the models.
+
+
+
+
 
 
