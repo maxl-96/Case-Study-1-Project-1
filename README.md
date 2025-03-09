@@ -2,9 +2,9 @@
 Heart Disease Prediction
 
 > How would you approach the problem?
-
-There are 6 ML Steps as u can see in de image belo
-
+> 
+The problem consist of 6 six ML steps that you can see in the image below:
+> 
  - Problem definition
  - Data
  - Evaluation
@@ -16,43 +16,43 @@ There are 6 ML Steps as u can see in de image belo
 
 ## Problem definition
 
-For solving a machinge learning problem, it is nessesery to understand the business problem. If u unterstand what problem u have u can choose the right ML type.
+The first step in determining if machine learning could benefit your business is to align the problem you're trying to solve with a machine learning solution.
 
-There are these types of machine learning:
+There are three types of machine learning:
  - Supervised Learning
  - Unspuervised Learning
  - Reinforement Learning
 
-If ML can be used, its fall under one of therse three typers:
-- Classification (Preditct Classes)
-- Regression     (Predict a Number)
-- Recommendation (Predict the best Matches)
+When ML can be used, it falls under one of these types:
+- Classification (Preditcts Classes)
+- Regression     (Predicts a Number)
+- Recommendation (Predicts the best Matches)
 
 
 ## Data
 
 What kind of Data do i have? 
-- Structured Data like rows and Colums?
+- Structured Data like rows and Columns?
 - Unstructured Data like text or images
 - Static Data - never changing Data
 - Streaming Data - constantly updated data
 
 ## Evaluation
 
-How can i mess my ML model? There are some different metrics for every ML problem.
+How am I able to mess my ML model? There are some different metrics for every ML problem.
 
 ## Features
 
-The next step is to understand what features do i have in the dataset and how can i use them?
+The next step is to understand what features does my dataset provide and how can i use them?
 
 ## Modelling
 
-Modelling breaks into three parts, choosing a model, improving a model, comparing it with others.
+Modelling is divided into three parts, choosing a model, improving a model, comparing it with others.
 
 ## Experimentation
 
-The last step is to repeat all other steps and test some different ways. Choose other models or hyperparameter maybe some other features.
-Then compare the models.
+The last step is to repeat all previous steps and test it again in a different way. When testing it again you can choost another model or hyperparameter and also some other features. 
+Finally, compare all the models. 
 
 
 
