@@ -1,5 +1,5 @@
 # Case-Study-1-Project-1
-Heart Disease Prediction
+## Heart Disease Prediction
 
 > How would you approach the problem?
 > 
