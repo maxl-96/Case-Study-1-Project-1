@@ -35,6 +35,8 @@ What kind of Data do i have?
 <br>
 How am I able to mess my ML model? There are some different metrics for every ML problem.
 </details>
+<details>
+
 <summary>Features</summary>
 <br>
 The next step is to understand what features does my dataset provide and how can i use them?
