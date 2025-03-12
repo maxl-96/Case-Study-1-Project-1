@@ -2,10 +2,11 @@
 ### ML Workflow
 
 > How would you approach the problem?
-> 
+
 The problem consist of 6 six ML steps that you can see in the image below:
-> 
- - <summary>Problem definition</summary>
+
+<details>
+ - <summary>Problem definition</summary></details>
  - Data
  - Evaluation
  - Features
