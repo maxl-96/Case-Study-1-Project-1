@@ -55,11 +55,9 @@ The last step is to repeat all previous steps and test it again in a different w
 Finally, compare all the models. 
 </details>
 
-<summary>Problem definition</summary>
-
 <img title="a title" alt="Alt text" src="1_Gf0bWgr2wst9A1XR5gakLg.png">
 
-
+Source: https://www.mrdbourke.com/a-6-step-field-guide-for-building-machine-learning-projects/
 [Click for more information](mlworkflow.md)
 
 
@@ -67,29 +65,11 @@ Finally, compare all the models.
 
 I will use VS Code with Jupyter Notebook. All requirements u can find in the requirements.txt
 
-The first step is to create a virtual environment
-```yaml
-changelog:
-  exclude:
-    labels:
-      - ignore-for-release
-    authors:
-      - octocat
-  categories:
-    - title: Breaking Changes 🛠
-      labels:
-        - Semver-Major
-        - breaking-change
-    - title: New Features 🎉
-      labels:
-        - Semver-Minor
-        - enhancement
-    - title: Bugfixes
-      labels:
-        - bug
-    - title: Other Changes
-      labels:
-        - "*"
+The first step is to create and activate virtual environment
+```shell
+python -m venv .
+source ./Scripts/activate (bash)
+.\Scripts\activate        (powershell)
 ```
 
 
