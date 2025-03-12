@@ -1,5 +1,5 @@
-## Case Study 1 Project 1
-### Heart Disease Prediction
+## Case Study 1 Project 1 - Heart Disease Prediction
+### ML Workflow
 
 > How would you approach the problem?
 > 
@@ -13,6 +13,9 @@ The problem consist of 6 six ML steps that you can see in the image below:
  - Experiments
 
 <img title="a title" alt="Alt text" src="1_Gf0bWgr2wst9A1XR5gakLg.png">
+
+
+[Siehe die Dokumentation hier](.\mlworkflow.md)
 
 ### Problem definition
 
