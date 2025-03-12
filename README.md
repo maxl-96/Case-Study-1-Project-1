@@ -5,7 +5,7 @@
 > 
 The problem consist of 6 six ML steps that you can see in the image below:
 > 
- - Problem definition
+ - <summary>Problem definition</summary>
  - Data
  - Evaluation
  - Features
