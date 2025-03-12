@@ -15,7 +15,7 @@ The problem consist of 6 six ML steps that you can see in the image below:
 <img title="a title" alt="Alt text" src="1_Gf0bWgr2wst9A1XR5gakLg.png">
 
 
-[Siehe die Dokumentation hier](.\mlworkflow.md)
+[Siehe die Dokumentation hier](mlworkflow.md)
 
 ### Problem definition
 
