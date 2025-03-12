@@ -6,7 +6,20 @@
 The problem consist of 6 six ML steps that you can see in the image below:
 
 <details>
- - <summary>Problem definition</summary></details>
+<summary>Problem definition</summary>
+The first step in determining if machine learning could benefit your business is to align the problem you're trying to solve with a machine learning solution.
+
+There are three types of machine learning:
+ - Supervised Learning
+ - Unspuervised Learning
+ - Reinforement Learning
+
+When ML can be used, it falls under one of these types:
+- Classification (Preditcts Classes)
+- Regression     (Predicts a Number)
+- Recommendation (Predicts the best Matches)
+</details>
+
  - Data
  - Evaluation
  - Features
