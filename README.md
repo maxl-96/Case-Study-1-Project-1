@@ -20,6 +20,8 @@ When ML can be used, it falls under one of these types:
 - Regression     (Predicts a Number)
 - Recommendation (Predicts the best Matches)
 </details>
+<details>
+
 <summary>Data</summary>
 <br>
 What kind of Data do i have? 
@@ -28,6 +30,7 @@ What kind of Data do i have?
 - Static Data - never changing Data
 - Streaming Data - constantly updated data
 </details>
+<details>
 <summary>Evaluation</summary>
 <br>
 How am I able to mess my ML model? There are some different metrics for every ML problem.
@@ -36,10 +39,14 @@ How am I able to mess my ML model? There are some different metrics for every ML
 <br>
 The next step is to understand what features does my dataset provide and how can i use them?
 </details>
+<details>
+
 <summary>Modelling</summary>
 <br>
 Modelling is divided into three parts, choosing a model, improving a model, comparing it with others.
 </details>
+<details>
+
 <summary>Experimentation</summary>
 <br>
 The last step is to repeat all previous steps and test it again in a different way. When testing it again you can choost another model or hyperparameter and also some other features. 
