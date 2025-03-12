@@ -7,6 +7,7 @@ The problem consist of 6 six ML steps that you can see in the image below:
 
 <details>
 <summary>Problem definition</summary>
+<br>
 The first step in determining if machine learning could benefit your business is to align the problem you're trying to solve with a machine learning solution.
 
 There are three types of machine learning:
@@ -19,12 +20,31 @@ When ML can be used, it falls under one of these types:
 - Regression     (Predicts a Number)
 - Recommendation (Predicts the best Matches)
 </details>
-
- - Data
- - Evaluation
- - Features
- - Modelling
- - Experiments
+<summary>Data</summary>
+<br>
+What kind of Data do i have? 
+- Structured Data like rows and Columns?
+- Unstructured Data like text or images
+- Static Data - never changing Data
+- Streaming Data - constantly updated data
+</details>
+<summary>Evaluation</summary>
+<br>
+How am I able to mess my ML model? There are some different metrics for every ML problem.
+</details>
+<summary>Features</summary>
+<br>
+The next step is to understand what features does my dataset provide and how can i use them?
+</details>
+<summary>Modelling</summary>
+<br>
+Modelling is divided into three parts, choosing a model, improving a model, comparing it with others.
+</details>
+<summary>Experimentation</summary>
+<br>
+The last step is to repeat all previous steps and test it again in a different way. When testing it again you can choost another model or hyperparameter and also some other features. 
+Finally, compare all the models. 
+</details>
 
 <summary>Problem definition</summary>
 
