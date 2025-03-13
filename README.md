@@ -82,11 +82,13 @@ The model will be trained with patient data and labels. So we use supervised lea
 
 > How does the company expect to use and benefit from this model?
 
-## Data
+### Data
 
 We get the Data from the python package ucimlrepo
 
 This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them.
+
+The data are struktured and in this case the data are static and not changing. 
 
 
 ```python
@@ -107,7 +109,6 @@ print(heart_disease.variables)
 <details>
 <summary>See Variables</summary>
 <br>
-- Structured Data like rows and Columns?
 
 - age
 - sex (1 = male; 0 = female)
@@ -137,11 +138,13 @@ print(heart_disease.variables)
   - Value 1: > 50% diameter narrowing
 </details>
 
+### Evaluation
 
+Now we define what defines success.
 
+For a classification problem there are accuray and precion/recall (confusion matrix) important.
 
-
-
+Probabilistic classification models are a better choice in healthcare settings because they provide more nuanced and actionable information, ensuring that the patient’s care is based on the full spectrum of risk and uncertainty, rather than binary predictions.
 
 <h1 align="center">Creating a CI/CD Pipeline</h1>
 <p>This example project explains how to automate a CI/CD Workflow in Drone. The dotnet tool <a align="left" href="https://github.com/dotnet/Nerdbank.GitVersioning" target="_blank">Nerdbank.Gitversioning</a> is used for Semantic Versioning. <b>The Goal of the Pipeline is to automate Builds and Tests, publish Packages on GitHub and create Releases in GitHub</b></p>
