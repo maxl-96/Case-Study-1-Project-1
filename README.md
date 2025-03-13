@@ -107,6 +107,8 @@ print(heart_disease.variables)
 <details>
 <summary>See Variables</summary>
 <br>
+- Structured Data like rows and Columns?
+
 - age
 - sex (1 = male; 0 = female)
 - chest pain type :4 values
