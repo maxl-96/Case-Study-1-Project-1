@@ -20,35 +20,37 @@ When ML can be used, it falls under one of these types:
 - Regression     (Predicts a Number)
 - Recommendation (Predicts the best Matches)
 </details>
-<details>
 
+<details>
 <summary>Data</summary>
 <br>
 What kind of Data do i have? 
+
 - Structured Data like rows and Columns?
 - Unstructured Data like text or images
 - Static Data - never changing Data
 - Streaming Data - constantly updated data
 </details>
+
 <details>
 <summary>Evaluation</summary>
 <br>
 How am I able to mess my ML model? There are some different metrics for every ML problem.
 </details>
-<details>
 
+<details>
 <summary>Features</summary>
 <br>
 The next step is to understand what features does my dataset provide and how can i use them?
 </details>
-<details>
 
+<details>
 <summary>Modelling</summary>
 <br>
 Modelling is divided into three parts, choosing a model, improving a model, comparing it with others.
 </details>
-<details>
 
+<details>
 <summary>Experimentation</summary>
 <br>
 The last step is to repeat all previous steps and test it again in a different way. When testing it again you can choost another model or hyperparameter and also some other features. 
@@ -63,7 +65,7 @@ Source: https://www.mrdbourke.com/a-6-step-field-guide-for-building-machine-lear
 
 ## Getting Started
 
-I will use VS Code with Jupyter Notebook. All requirements u can find in the requirements.txt
+I will use VS Code with Jupyter Notebook. All packages u can find in the `requirements.txt`
 
 The first step is to create and activate virtual environment
 ```shell
@@ -72,17 +74,71 @@ source ./Scripts/activate (bash)
 .\Scripts\activate        (powershell)
 ```
 
-
 ### Problem definition
-Goal: The main goal of this project is to predict whether a patient has heart disease or not (binary classification) based on certain features (like age, gender, cholesterol levels, blood pressure, etc.). This would help healthcare providers to assess risk and intervene earlier, potentially preventing heart disease.
+
+The main goal of this project is to predict whether a patient has heart disease or not --> 2 desicions --> binary classification
+
+The model will be trained with patient data and labels. So we use supervised learning. It’s important to remember this prediction isn’t certain. It comes back as a probability.
+
+> How does the company expect to use and benefit from this model?
+
+## Data
+
+We get the Data from the python package ucimlrepo
+
+This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them.
+
+
+```python
+# This code is provided on https://archive.ics.uci.edu/dataset/45/heart+disease
+
+from ucimlrepo import fetch_ucirepo  
+  
+# fetch dataset 
+heart_disease = fetch_ucirepo(id=45) 
+  
+# data (as pandas dataframes) 
+X = heart_disease.data.features 
+y = heart_disease.data.targets 
+  
+# variable information 
+print(heart_disease.variables)
+```
+<details>
+<summary>See Variables</summary>
+<br>
+- age
+- sex (1 = male; 0 = female)
+- chest pain type :4 values
+  - Value 1: typical angina
+  - Value 2: atypical angina
+Value 3: non-anginal pain
+Value 4: asymptomatic
+resting blood pressure (in mm Hg on admission to the hospital)
+serum cholestoral in mg/dl
+fasting blood sugar > 120 mg/dl (1 = true; 0 = false)
+resting electrocardiographic results (values 0,1,2)
+Value 0: normal
+Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
+maximum heart rate achieved
+exercise induced angina (1 = yes; 0 = no)
+oldpeak = ST depression induced by exercise relative to rest
+the slope of the peak exercise ST segment -Value 1: upsloping
+Value 2: flat
+Value 3: downsloping
+number of major vessels (0-3) colored by flourosopy
+thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
+target: diagnosis of heart disease (angiographic disease status)
+Value 0: < 50% diameter narrowing
+Value 1: > 50% diameter narrowing
+</details>
 
 
 
 
 
-[![Build Status](https://drone.deere.com/api/badges/MPS/NETStandard-lib/status.svg)](https://drone.deere.com/MPS/NETStandard-lib)
-![Branch badge](https://github.deere.com/MPS/NETStandard-lib/wiki/badges/badge_branchcoverage.svg)
-![Line badge](https://github.deere.com/MPS/NETStandard-lib/wiki/badges/badge_linecoverage.svg)
+
 
 <h1 align="center">Creating a CI/CD Pipeline</h1>
 <p>This example project explains how to automate a CI/CD Workflow in Drone. The dotnet tool <a align="left" href="https://github.com/dotnet/Nerdbank.GitVersioning" target="_blank">Nerdbank.Gitversioning</a> is used for Semantic Versioning. <b>The Goal of the Pipeline is to automate Builds and Tests, publish Packages on GitHub and create Releases in GitHub</b></p>
