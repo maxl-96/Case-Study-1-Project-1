@@ -146,6 +146,12 @@ For a classification problem there are accuray and precion/recall (confusion mat
 
 Probabilistic classification models are a better choice in healthcare settings because they provide more nuanced and actionable information, ensuring that the patient’s care is based on the full spectrum of risk and uncertainty, rather than binary predictions.
 
+### Features and EDA
+
+The next step is to understand the data and preparing the data.
+You can see this step in `...ipy`
+
+
 <h1 align="center">Creating a CI/CD Pipeline</h1>
 <p>This example project explains how to automate a CI/CD Workflow in Drone. The dotnet tool <a align="left" href="https://github.com/dotnet/Nerdbank.GitVersioning" target="_blank">Nerdbank.Gitversioning</a> is used for Semantic Versioning. <b>The Goal of the Pipeline is to automate Builds and Tests, publish Packages on GitHub and create Releases in GitHub</b></p>
 
