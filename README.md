@@ -1,4 +1,4 @@
-## Case Study 1 Project 1 - Heart Disease Prediction
+## Case Study 1 Project 1 - Churn for Bank Customers
 ### ML Workflow
 
 > How would you approach the problem?
@@ -76,11 +76,15 @@ source ./Scripts/activate (bash)
 
 ### Problem definition
 
-The main goal of this project is to predict whether a patient has heart disease or not --> 2 desicions --> binary classification
+The main goal of this project is to predict whether a customer has left the company or not --> 2 desicions --> binary classification
 
-The model will be trained with patient data and labels. So we use supervised learning. It’s important to remember this prediction isn’t certain. It comes back as a probability.
+The model will be trained with patient data and labels. So we use supervised learning. It’s important to remember this prediction isn’t certain. It comes back as a probability. Maybe its better to get the probabilty of leaving a customer. 
 
 > How does the company expect to use and benefit from this model?
+
+Customer churn is a common challenge that businesses must address, making it a key priority.
+
+Also known as attrition, customer churn refers to the level of inactivity or disengagement observed over a specific time period. By analyzing behavioral or relational data, businesses can often identify early warning signs. Recognizing the main factors behind churn and identifying customers at risk are essential for improving business growth and strategy.
 
 ### Data
 
@@ -110,32 +114,19 @@ print(heart_disease.variables)
 <summary>See Variables</summary>
 <br>
 
-- age
-- sex (1 = male; 0 = female)
-- chest pain type :4 values
-  - Value 1: typical angina
-  - Value 2: atypical angina
-  - Value 3: non-anginal pain
-  - Value 4: asymptomatic
-- resting blood pressure (in mm Hg on admission to the hospital)
-- serum cholestoral in mg/dl
-- fasting blood sugar > 120 mg/dl (1 = true; 0 = false)
-- resting electrocardiographic results (values 0,1,2)
-  - Value 0: normal
-  - Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
-  - Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
-- maximum heart rate achieved
-- exercise induced angina (1 = yes; 0 = no)
-- oldpeak = ST depression induced by exercise relative to rest
-- the slope of the peak exercise ST segment 
-  - Value 1: upsloping
-  - Value 2: flat
-  - Value 3: downsloping
-- number of major vessels (0-3) colored by flourosopy
-- thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
-- target: diagnosis of heart disease (angiographic disease status)
-  - Value 0: < 50% diameter narrowing
-  - Value 1: > 50% diameter narrowing
+- CustomerId — contains random values and has no effect on customer leaving the bank.
+- Surname — the surname of a customer has no impact on their decision to leave the bank.
+- CreditScore — can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank.
+- Geography — a customer’s location can affect their decision to leave the bank.
+- Gender — it’s interesting to explore whether gender plays a role in a customer leaving the bank.
+- Age — this is certainly relevant, since older customers are less likely to leave their bank than younger ones.
+- Tenure — refers to the number of years that the customer has been a client of the bank. Normally, older clients are more loyal and less likely to leave a bank.
+- Balance — also a very good indicator of customer churn, as people with a higher balance in their accounts are less likely to leave the bank compared to those with lower balances.
+- NumOfProducts — refers to the number of products that a customer has purchased through the bank.
+- HasCrCard — denotes whether or not a customer has a credit card. This column is also relevant, since people with a credit card are less likely to leave the bank.
+- IsActiveMember — active customers are less likely to leave the bank.
+- EstimatedSalary — as with balance, people with lower salaries are more likely to leave the bank compared to those with higher salaries.
+- Exited — whether or not the customer left the bank.
 </details>
 
 ### Evaluation
