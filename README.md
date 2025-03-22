@@ -78,7 +78,7 @@ source ./Scripts/activate (bash)
 
 The main goal of this project is to predict whether a customer has left the company or not --> 2 desicions --> binary classification
 
-The model will be trained with patient data and labels. So we use supervised learning. It’s important to remember this prediction isn’t certain. It comes back as a probability. Maybe its better to get the probabilty of leaving a customer. 
+The model will be trained with customer data and labels. So we use supervised learning. It’s important to remember this prediction isn’t certain. It comes back as a probability. 
 
 > How does the company expect to use and benefit from this model?
 
