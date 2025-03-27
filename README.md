@@ -74,3 +74,9 @@ source ./Scripts/activate (bash)
 .\Scripts\activate        (powershell)
 ```
 
+Download the code and install requirement:
+
+```shell
+git clone https://github.com/maxl-96/Case-Study-1-Project-1.git
+pip install -r requirements.txt
+```
