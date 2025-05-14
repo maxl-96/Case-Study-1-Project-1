@@ -57,7 +57,7 @@ The last step is to repeat all previous steps and test it again in a different w
 Finally, compare all the models. 
 </details>
 
-<img title="a title" alt="Alt text" src="1_Gf0bWgr2wst9A1XR5gakLg.png">
+<img title="a title" alt="Alt text" src="./img/1_Gf0bWgr2wst9A1XR5gakLg.png">
 
 Source: https://www.mrdbourke.com/a-6-step-field-guide-for-building-machine-learning-projects/
 [Click for more information](mlworkflow.md)
